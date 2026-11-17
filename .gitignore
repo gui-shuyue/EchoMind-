@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# 环境变量（含敏感信息）
+.env
+.env.*
+!.env.example
+
+# 数据目录
+data/
+logs/
+
+# 本地学习文档与项目记录（保留在本机，不上传远程）
+wiki/
+/skills/README.md
+/2026.08.29改动说明.md
+/2026.09.28更新说明.md
+/2026.10.02更新说明.md
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ChromaDB 本地数据
+*.sqlite3
+
+# 备份文件
+*~
+*.bak
+docker-compose(1).yml
